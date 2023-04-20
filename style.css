@@ -1,0 +1,136 @@
+
+
+
+body {
+    background-image: url(bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    width: auto;
+    height: 100%;
+    padding: 20px;
+   
+}
+.mother {
+    width: 1300px;
+    
+    display: flex;
+    height: 600px;
+    
+    justify-content: space-evenly;
+
+    
+}
+.first {
+    width: 55%;
+    height: 100%;
+    
+}
+.second {
+    width: 45%;
+    
+    height: 100%;
+    
+
+}
+h1 {
+    font-size: 50px;
+    color: white;
+}
+p {
+    font-size: 20px;
+    color: white;
+}
+.text {
+    width: 90%;
+    height: 400px;
+    
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+input{
+    display:block;
+   margin: 50px 10px 15px 20px;
+   padding: 15px;
+  border-radius: 10px ;
+   width: 90%;
+   height: 12%;
+   color: hsl(300, 69%, 71%);
+   font-size: 20px;
+   border: 1px solid black;
+  }
+.icons {
+    width: 90%;
+    height: 100px;
+    
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 1px solid white;
+   
+  }
+  
+  /* Add a hover effect if you want */
+  .fa-twitter:hover {
+    opacity: 0.7;
+    background-color: #55ACEE;
+  }
+  .fa-facebook:hover {
+    opacity: 0.7;
+    background-color: #3B5998;
+  }
+  .fa-instagram:hover {
+    opacity: 0.7;
+    background-color: hsl(300, 69%, 71%);
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    color: white;
+    background: transparent;
+    margin: 10px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    color: white;
+    background: transparent;
+    margin: 10px;
+  }
+    /* Instagram */
+  .fa-instagram {
+    background: transparent;
+    color: white;
+    margin: 10px;
+  }
+ 
+  @media screen and (max-width: 600px){
+    .mother{
+      display: flex;
+      flex-direction: column;
+      background-color: burlywood;
+      
+    }
+    .second {
+      width: 100%; 
+    }
+  }
+  @media screen and (min-width: 601px) and (max-width: 800px) {
+    .mother{
+      display: flex;
+      flex-direction: column;
+    }
+  } 
